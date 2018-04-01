@@ -33,7 +33,7 @@ Nós o reduzimos a um sistema mais simples como segue.
 
 **Passo 1:** Transponha equações de modo que a primeira incógnita x_1 tenha coeficiente não nulo nna primeira equação, isto é, de modo que a_11 ≠ 0, ou seja, obtenha a matriz completa do sistema.
 
-**Passo 2 *eliminação de Gauss*: ** Transforme a matriz completa **[A|b]** em uma matriz aumetada **[Ā|b]** onde Ā é uma matriz triangular superior.
+__Passo 2 *eliminação de Gauss*:__ Transforme a matriz completa **[A|b]** em uma matriz aumetada **[Ā|b]** onde Ā é uma matriz triangular superior.
 *Obtenção da matriz triangular superior:* para cada i > 1, aplique a operacão 
   
 ![operacão elementar](imagens/operacaoElementar.PNG)
@@ -185,7 +185,7 @@ A partir do metodo de eliminação de Gauss vamos resolver o seguinte sistema:
 ![matriz pt1](imagens/minhaMatriz1.PNG)
 
 **2° passo:**
-** *1° Fase:* ** Deseja-se zerar todos os elementos da primeira coluna abaixo da diagonal principal. Assim, sendo a_11 ≠ 0 , define-se as constantes k = a_21/a_11 = 2, w = a_31/a_11 = 3 e v = a_41/a_11 = -1 e faz-se as seguintes operações lineares:
+__*1° Fase:*__ Deseja-se zerar todos os elementos da primeira coluna abaixo da diagonal principal. Assim, sendo a_11 ≠ 0 , define-se as constantes k = a_21/a_11 = 2, w = a_31/a_11 = 3 e v = a_41/a_11 = -1 e faz-se as seguintes operações lineares:
 
 ![operacao 1](imagens/op1.PNG)
 
@@ -193,11 +193,11 @@ Assim obtemos:
 
 ![matriz pt2](imagens/minhaMatriz2.PNG)
 
-** *2° Fase:* ** Zerar os elementos da segunda coluna abaixo da diagonal principal. Assim, k = a_32/a_22 = 2, w = a_42/a_22 = 3 e as operações elementares se tornam:
+__*2° Fase:*__ Zerar os elementos da segunda coluna abaixo da diagonal principal. Assim, k = a_32/a_22 = 2, w = a_42/a_22 = 3 e as operações elementares se tornam:
 
 ![matriz pt3](imagens/minhaMatriz3.PNG)
 
-** *3° passo:* ** Tendo-se obtido o sistema:
+__*3° passo:*__ Tendo-se obtido o sistema:
 
 ![sistema pt2](imagens/meuSistema2.PNG)
 
@@ -234,7 +234,10 @@ Arquivo de entrada matriz.txt
 Tela de saida do programa
 
 ![console](imagens/console/console.png)
-	
+
+# menções
+
+@thadeupenna
 
 # Referencias
 
