@@ -15,7 +15,7 @@ Uma matriz completa, também chamada de matriz aumentada, está na forma escalon
 
 Exemplo
 
-![matriz completa](imagens/mattrizCompleta.PNG)
+![matriz completa](imagens/matrizCompleta.PNG)
 
 A forma escalonada pode ser obtida por operações elementares que seram listadas a seguir:
 
@@ -229,11 +229,11 @@ Assim, a solução para o sistema linear é: { -1; 2; 0; 1 }
 
 Arquivo de entrada matriz.txt
 
-!(arquivo)[imagens/console/dados.png]
+![arquivo](imagens/console/dados.png)
 
 Tela de saida do programa
 
-!(console)[imagens/console/console.png]
+![console](imagens/console/console.png)
 	
 
 # Referencias
