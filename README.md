@@ -65,9 +65,8 @@ double *substituicaoRegressiva(double **m, size_t dim)
 
         for(j = i + 1; j <= n; j++ )
         {
-            sum += m[i][j] * root[j];
-            *operacao = *operacao + 1;
-        }
+            sum += m[i][j] * root[j];
+        }
 
         root[i] = (m[i][dim] - sum)/(double)m[i][i];
     }
