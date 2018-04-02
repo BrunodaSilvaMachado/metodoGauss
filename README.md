@@ -192,7 +192,12 @@ Assim obtemos:
 
 ![matriz pt2](imagens/minhaMatriz2.PNG)
 
-__*2° Fase:*__ Zerar os elementos da segunda coluna abaixo da diagonal principal. Assim, k = a_32/a_22 = 2, w = a_42/a_22 = 3 e as operações elementares se tornam:
+__*2° Fase:*__ Zerar os elementos da segunda coluna abaixo da diagonal principal. Assim, k = a_32/a_22 = 24, w = a_42/a_22 = -3 e as operações elementares se tornam:
+
+![operacao 2](imagens/op2.PNG)
+
+e assim finalmente obtemos a matriaz completa triangular superior:
+
 
 ![matriz pt3](imagens/minhaMatriz3.PNG)
 
